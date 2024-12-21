@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar {
+    min-height: 100vh;
+    background-color: #343a40;
+    color: white;
+    padding-top: 20px;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #495057;
+}
+.main-content {
+    padding: 20px;
+    flex-grow: 1;
+}
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+body.register-page,
+body.login-page
+{
+    background-color: #f8f9fa;
+}
+.form-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
